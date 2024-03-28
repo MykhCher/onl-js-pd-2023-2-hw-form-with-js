@@ -39,13 +39,13 @@ const textInput3 = document.createElement('input');
 textInput3.setAttribute('type', 'text');
 textInput3.setAttribute('placeholder', 'Display Name');
 const textInput4 = document.createElement('input');
-textInput4.setAttribute('type', 'text');
+textInput4.setAttribute('type', 'email');
 textInput4.setAttribute('placeholder', 'Email Address');
 const textInput5 = document.createElement('input');
-textInput5.setAttribute('type', 'text');
+textInput5.setAttribute('type', 'password');
 textInput5.setAttribute('placeholder', 'Password');
 const textInput6 = document.createElement('input');
-textInput6.setAttribute('type', 'text');
+textInput6.setAttribute('type', 'password');
 textInput6.setAttribute('placeholder', 'Password Confirmation');
 
 // radio-info
