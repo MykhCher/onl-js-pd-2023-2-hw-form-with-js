@@ -53,13 +53,15 @@ const radioInput1 = document.createElement('input');
 const radioLabel1 = document.createElement('label');
 radioInput1.setAttribute('type', 'radio');
 radioInput1.setAttribute('id', 'radio1');
-radioLabel1.setAttribute('for', 'radio1')
+radioInput1.setAttribute('name', 'role');
+radioLabel1.setAttribute('for', 'radio1');
 radioLabel1.innerHTML = '<span class="caption">Join as a Buyer</span><br> I am looking for a Name, Logo or Tagline for my business, brand or product.';
 const radioInput2 = document.createElement('input');
 const radioLabel2 = document.createElement('label');
 radioInput2.setAttribute('type', 'radio');
 radioInput2.setAttribute('id', 'radio2');
-radioLabel2.setAttribute('for', 'radio2')
+radioInput2.setAttribute('name', 'role');
+radioLabel2.setAttribute('for', 'radio2');
 radioLabel2.innerHTML = '<span class="caption">Join As a Creative or Marketplace Seller</span><br> I plan to submit name ideas, Logo designs or sell names in Domain Marketplace.';
 
 // Create elements for form-foot
